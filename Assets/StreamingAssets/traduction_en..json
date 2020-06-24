@@ -1,0 +1,589 @@
+{
+    "data": [
+        {
+            "key": "title",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Hock Cinema",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "start",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Start",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "language",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Language",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "quit",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Quit",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "resume",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Resume",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "return to menu",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Return to Menu",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "thanks for playing",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Thank you for playing our demo of Hock Cinema!",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "click to continue",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "\n(Left click to continue)",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "has items text - boitier 0 et 1",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "The hall generator is activated.",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "has items text - boitier 2",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "The projection room generator is activated.",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "has items text - boitier 3",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "The first floor generator is activated.",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "has items text - boitier 4",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "The emergency exit generator is activated.",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "needs items text - boitier 2",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "I better get back in touch with Jeremy before.",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "needs items text - boitier 4",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "This generator is broken; I have to find something to fix it.",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "needs items text - porte",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "This door is locked.",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "needs items text - porte vers zone 2",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "I better put down my tools before joining Jeremy.",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "picked up text - talkie",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "You picked up the walkie-talkie.",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "picked up text - key boitier",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "You picked up a fuse.",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "cam name 1 reseau 1",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Hall",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "cam name 2 reseau 1",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Sales stands",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "cam name 3 reseau 1",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Corridor technical area",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "cam name 4 reseau 1",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Technical area",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "cam name 1 reseau 2",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Locker room",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "cam name 2 reseau 2",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Corridor projection rooms",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "cam name 3 reseau 2",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Room 1",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "cam name 4 reseau 2",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Projection room 1",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "cam name 1 reseau 3",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Storehouse",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "cam name 2 reseau 3",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Room 3",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "cam name 3 reseau 3",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Corridor emergency exits",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "cam name 4 reseau 3",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Room 2",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "salle - local technique",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Technical area",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "salle - hall entree",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Hall",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "salle - vestiaires",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Locker room",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "salle - 1",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Room 1",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "salle - 2",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Room 2",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "salle - reserve",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Storehouse",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "salle - toilettes",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Toilets",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "salle - 3",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Room 3",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": "salle - acces etage 1",
+            "item": {
+                "type": 0,
+                "value": {
+                    "int": 0,
+                    "float": 0.0,
+                    "bool": false,
+                    "string": "Access floor 1",
+                    "object": {
+                        "instanceID": 0
+                    }
+                }
+            }
+        }
+    ]
+}

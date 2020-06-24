@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a3edb28b19808c4b9731b999c2b9b46, type: 3}
+  m_Name: obj_EN_6_2_trouver cle
+  m_EditorClassIdentifier: 
+  bottomtext: 'New objective:
+
+    Find a fuse in the storehouse to put the generator
+    back into service.'
+  topLeftText: "Objective: Repair the generator in room 2.\r\n - Find a new fuse
+    in the storehouse."
+  displayOnScreenDuration: 5

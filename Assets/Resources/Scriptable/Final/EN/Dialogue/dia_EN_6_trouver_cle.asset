@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7569eab0ff300574da6d2e043dcbf0d8, type: 3}
+  m_Name: dia_EN_6_trouver_cle
+  m_EditorClassIdentifier: 
+  useTalkie: 1
+  dialogueClip: {fileID: 8300000, guid: 91de32ebebad24a4e80a850f8bbe0286, type: 3}
+  repliques:
+  - characterName: Jeremy
+    text: Eva? Did you find it?
+    textOnScreenDuration: 2
+  - characterName: Eva
+    text: "Yes, I found it, unfortunately, I no longer have fuses with the right
+      amperage. I don\u2019t know what\r to do."
+    textOnScreenDuration: 4.25
+  - characterName: Jeremy
+    text: "An electrical supplies delivery came by this morning, I dropped it off
+      in <b>the storehouse</b>, go\r take a look, you may find what you need."
+    textOnScreenDuration: 6.5
+  - characterName: Eva
+    text: "Ok, I\u2019ll get there as fast as I can."
+    textOnScreenDuration: 1

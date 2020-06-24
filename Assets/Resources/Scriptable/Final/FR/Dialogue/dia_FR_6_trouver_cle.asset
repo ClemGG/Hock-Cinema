@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7569eab0ff300574da6d2e043dcbf0d8, type: 3}
+  m_Name: dia_FR_6_trouver_cle
+  m_EditorClassIdentifier: 
+  useTalkie: 1
+  dialogueClip: {fileID: 8300000, guid: 91de32ebebad24a4e80a850f8bbe0286, type: 3}
+  repliques:
+  - characterName: Jeremy
+    text: "\xC9va, tu as trouv\xE9, tu t\u2019en sors ? "
+    textOnScreenDuration: 2
+  - characterName: Eva
+    text: "J\u2019ai trouv\xE9 le bo\xEEtier mais malheureusement j\u2019ai plus
+      de fusible au bon amp\xE9rage, je suis \xE0 sec. "
+    textOnScreenDuration: 4.25
+  - characterName: Jeremy
+    text: "Y a une livraison de <b>fournitures \xE9lectriques</b> qui est arriv\xE9e
+      ce matin, je te l\u2019ai d\xE9pos\xE9e <b>dans la r\xE9serve</b>, va voir,
+      tu devrais trouver ce qu\u2019il faut."
+    textOnScreenDuration: 6.5
+  - characterName: Eva
+    text: "Ok, j\u2019y fonce.\r"
+    textOnScreenDuration: 1

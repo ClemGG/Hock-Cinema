@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7569eab0ff300574da6d2e043dcbf0d8, type: 3}
+  m_Name: dia_FR_1_quand boitier 1 repare
+  m_EditorClassIdentifier: 
+  useTalkie: 0
+  dialogueClip: {fileID: 8300000, guid: aa58a1929f3dc0a4aa52bcc908d874fd, type: 3}
+  repliques:
+  - characterName: Jeremy
+    text: "Ben alors \xC9va ? Tu devais pas passer me voir au fait ? Qu\u2019est-ce
+      que tu fais ? Tu en mets du temps\u2026 "
+    textOnScreenDuration: 4.5
+  - characterName: Eva
+    text: "Oui bon, d\xE9sol\xE9e\u2026 J\u2019avais un truc \xE0 finir. "
+    textOnScreenDuration: 2.25
+  - characterName: Jeremy
+    text: "Ah. Du coup, maintenant que tu as fini, tu vas pas tarder \xE0 arriver
+      j\u2019imagine ? "
+    textOnScreenDuration: 3.5
+  - characterName: Eva
+    text: "Ben non, je dois encore <b>v\xE9rifier les cam\xE9ras</b> pour voir si
+      mon truc a march\xE9, ensuite il faut que je passe d\xE9poser les outils au
+      <b>local technique</b> et seulement l\xE0, je pourrai te rejoindre."
+    textOnScreenDuration: 8.75
+  - characterName: Jeremy
+    text: "Bon ben, tra\xEEne pas alors\u2026 "
+    textOnScreenDuration: 2
+  - characterName: Eva
+    text: "Oh t\u2019inqui\xE8te, je sais bien que tu es press\xE9 de me voir. "
+    textOnScreenDuration: 2
+  - characterName: Jeremy
+    text: "Oui... Enfin\u2026 Si on veut\u2026 "
+    textOnScreenDuration: 2.5

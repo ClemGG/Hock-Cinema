@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7569eab0ff300574da6d2e043dcbf0d8, type: 3}
+  m_Name: dia_EN_4_quand talkie ramasse
+  m_EditorClassIdentifier: 
+  useTalkie: 1
+  dialogueClip: {fileID: 8300000, guid: 8b5e58d576fa3d84ca99591eee280b3d, type: 3}
+  repliques:
+  - characterName: Eva
+    text: Eva to Jeremy, are you there? Jeremy, do you hear me?
+    textOnScreenDuration: 3
+  - characterName: Jeremy
+    text: Eva! Eva, there is something in the building!
+    textOnScreenDuration: 3.5
+  - characterName: Eva
+    text: What? What did you just say?
+    textOnScreenDuration: 1.75
+  - characterName: Jeremy
+    text: "Eva, I\u2019m telling you I saw something weird. The doors are slamming,
+      things are moving on\r their own, the lights are crackling\u2026"
+    textOnScreenDuration: 7
+  - characterName: Jeremy
+    text: "I locked myself in the projection room upstairs. I\u2019m telling you\r
+      Eva, it\u2019s not human, I swear!"
+    textOnScreenDuration: 4
+  - characterName: Eva
+    text: "Okay, okay, don\u2019t move, stay where you are, I\u2019m on my way. I\u2019m
+      going to use the <b>surveillance cameras</b>\r to see what\u2019s going on
+      and get to you. Don't move."
+    textOnScreenDuration: 7.75
+  - characterName: Jeremy
+    text: Come quickly, please!
+    textOnScreenDuration: 1
+  - characterName: Eva
+    text: "Yes. But\u2026 First, I have to <b>change the fuses on the electrical
+      panels</b> to bring the power back on,\r or <b>the cameras won\u2019t work</b>...
+      Anyway, don't move, I'm on my way."
+    textOnScreenDuration: 6.5
+  - characterName: Jeremy
+    text: Fine... I'm waitng for you.
+    textOnScreenDuration: 3

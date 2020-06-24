@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7569eab0ff300574da6d2e043dcbf0d8, type: 3}
+  m_Name: dia_FR_4_quand talkie ramasse
+  m_EditorClassIdentifier: 
+  useTalkie: 1
+  dialogueClip: {fileID: 8300000, guid: 8b5e58d576fa3d84ca99591eee280b3d, type: 3}
+  repliques:
+  - characterName: Eva
+    text: "J\xE9r\xE9my pour \xC9va\u2026 Tu es l\xE0 ? J\xE9r\xE9my, tu m\u2019entends
+      ? "
+    textOnScreenDuration: 3
+  - characterName: Jeremy
+    text: "\xC9va, \xC9va ! Y a\u2026 y a <b>quelque chose</b> dans le b\xE2timent
+      ! "
+    textOnScreenDuration: 3.5
+  - characterName: Eva
+    text: "Quoi ? Qu\u2019est-ce que tu dis ?"
+    textOnScreenDuration: 1.75
+  - characterName: Jeremy
+    text: "\xC9va je te dis que j\u2019ai vu des trucs bizarres ! Il y a les portes
+      qui claquent, il y a des choses qui bougent, il y a les lumi\xE8res qui arr\xEAtent
+      pas de gr\xE9siller\u2026 "
+    textOnScreenDuration: 7
+  - characterName: Jeremy
+    text: "Je me suis repli\xE9 dans la grande salle, \xE0 l\u2019\xE9tage\u2026
+      Je te jure \xC9va, c\u2019est pas humain, je te dis\u2026"
+    textOnScreenDuration: 4
+  - characterName: Eva
+    text: "Bon, bon. Ne bouge pas, ne bouge surtout pas, j\u2019arrive ! Je vais
+      <b>utiliser les cam\xE9ras de surveillance</b> pour comprendre ce qu'il se
+      passe et te rejoindre, ne bouge pas."
+    textOnScreenDuration: 7.75
+  - characterName: Jeremy
+    text: 'Tu fais vite hein ? '
+    textOnScreenDuration: 1
+  - characterName: Eva
+    text: "Oui, oui. Bon euh\u2026 Il faut d\u2019abord que je <b>change les fusibles
+      des bo\xEEtiers \xE9lectriques</b> pour r\xE9tablir le courant sinon, <b>pas
+      de cam\xE9ras</b>\u2026 Enfin, bouge pas, j\u2019arrive.\r"
+    textOnScreenDuration: 6.5
+  - characterName: Jeremy
+    text: "Bon, tr\xE8s bien, je t\u2019attends\u2026"
+    textOnScreenDuration: 3

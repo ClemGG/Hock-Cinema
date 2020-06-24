@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7569eab0ff300574da6d2e043dcbf0d8, type: 3}
+  m_Name: dia_EN_5_quand boitier 3 repare
+  m_EditorClassIdentifier: 
+  useTalkie: 1
+  dialogueClip: {fileID: 8300000, guid: 3d60cef4f7a13b442a9f4e8d519288ab, type: 3}
+  repliques:
+  - characterName: Jeremy
+    text: Jeremy to Eva! How are things going on?
+    textOnScreenDuration: 3
+  - characterName: Eva
+    text: "Look Jeremy, the ground floor is done. But you were right, there\u2019s
+      actually something prowling\r in the building."
+    textOnScreenDuration: 5.75
+  - characterName: Eva
+    text: "Okay, don\u2019t move, I just have to find <b>the electrical panel that
+      powers the stairs</b>, and I\u2019ll\r be able to get to you."
+    textOnScreenDuration: 4
+  - characterName: Jeremy
+    text: "Maybe, try the panel in <b>the second projection room</b>, I think it\u2019s
+      the one that powers the\r stairs."
+    textOnScreenDuration: 5
+  - characterName: Eva
+    text: "Ok, I\u2019m going there then."
+    textOnScreenDuration: 2

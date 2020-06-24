@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8871505389223985070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8871505389223985069}
+  - component: {fileID: 8871505389223985068}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8871505389223985069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8871505389223985070}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8871505389223985068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8871505389223985070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34992b180a07ca240a8db00ea0f7897a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sons:
+  - tag: talkie_with_monsters_sound
+    clip: {fileID: 8300000, guid: fc5929777c225e84ebb2dd0fbcadbfaf, type: 3}
+    lastClip: {fileID: 8300000, guid: fc5929777c225e84ebb2dd0fbcadbfaf, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 1
+    playOnAwake: 0
+  - tag: ambiance2
+    clip: {fileID: 8300000, guid: 5d7b8249be8a78a40934f8d52f250a91, type: 3}
+    lastClip: {fileID: 8300000, guid: 5d7b8249be8a78a40934f8d52f250a91, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 1
+    playOnAwake: 1
+  - tag: Menu_music2
+    clip: {fileID: 8300000, guid: f5922c78b8727174ea02d0970160f43e, type: 3}
+    lastClip: {fileID: 8300000, guid: f5922c78b8727174ea02d0970160f43e, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 1
+    playOnAwake: 0
+  - tag: ap_light flickering
+    clip: {fileID: 8300000, guid: 1597ac8ec089d374faf385077c240130, type: 3}
+    lastClip: {fileID: 8300000, guid: 1597ac8ec089d374faf385077c240130, type: 3}
+    source: {fileID: 0}
+    volume: 1
+    loop: 0
+    playOnAwake: 0
+  - tag: ap_porte claque
+    clip: {fileID: 8300000, guid: 76a643d3c87966d46a3a5181a6fb365a, type: 3}
+    lastClip: {fileID: 8300000, guid: 76a643d3c87966d46a3a5181a6fb365a, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    playOnAwake: 0
+  - tag: ramassage_documents
+    clip: {fileID: 8300000, guid: 033cf79fca2d95a4eba6c941b7b6b1fc, type: 3}
+    lastClip: {fileID: 8300000, guid: 033cf79fca2d95a4eba6c941b7b6b1fc, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    playOnAwake: 0
+  - tag: ramassage_items
+    clip: {fileID: 8300000, guid: 6e68b659b548c524e8f025e12cd195a0, type: 3}
+    lastClip: {fileID: 8300000, guid: 6e68b659b548c524e8f025e12cd195a0, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    playOnAwake: 0
+  - tag: mort
+    clip: {fileID: 8300000, guid: 30f6fb7f0f7a9d04ebdccf58d923d455, type: 3}
+    lastClip: {fileID: 8300000, guid: 30f6fb7f0f7a9d04ebdccf58d923d455, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    playOnAwake: 0
+  - tag: monstre_attaque_proche_perso
+    clip: {fileID: 8300000, guid: 4afe78a93390ab74c94cbb85c42d4b49, type: 3}
+    lastClip: {fileID: 8300000, guid: 4afe78a93390ab74c94cbb85c42d4b49, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    playOnAwake: 0
+  - tag: tablette vrombissement
+    clip: {fileID: 8300000, guid: 5e81b5a04f9fe164c9c40dd848a6fcbb, type: 3}
+    lastClip: {fileID: 8300000, guid: 5e81b5a04f9fe164c9c40dd848a6fcbb, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 1
+    playOnAwake: 0
+  - tag: bip tablette
+    clip: {fileID: 8300000, guid: 0db6c316acbc3d1428c6ad0fd9d5067d, type: 3}
+    lastClip: {fileID: 8300000, guid: 0db6c316acbc3d1428c6ad0fd9d5067d, type: 3}
+    source: {fileID: 0}
+    volume: 0.15
+    loop: 0
+    playOnAwake: 0
+  - tag: Decroche_talkie
+    clip: {fileID: 8300000, guid: 7780dfe2d8dde7d48a81a424c110aa34, type: 3}
+    lastClip: {fileID: 8300000, guid: 7780dfe2d8dde7d48a81a424c110aa34, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    playOnAwake: 0
+  - tag: Double_porte_open
+    clip: {fileID: 8300000, guid: a3eab938e34c35a43b046f42af30046b, type: 3}
+    lastClip: {fileID: 8300000, guid: a3eab938e34c35a43b046f42af30046b, type: 3}
+    source: {fileID: 0}
+    volume: 0.35
+    loop: 0
+    playOnAwake: 0
+  - tag: fermeture_porte
+    clip: {fileID: 8300000, guid: 32e8d4a0efe7414459a6a6f8155e26e4, type: 3}
+    lastClip: {fileID: 8300000, guid: 32e8d4a0efe7414459a6a6f8155e26e4, type: 3}
+    source: {fileID: 0}
+    volume: 0.35
+    loop: 0
+    playOnAwake: 0
+  - tag: porte_ouverture
+    clip: {fileID: 8300000, guid: 4b1b34d5280256844a5b37f2527dc9ba, type: 3}
+    lastClip: {fileID: 8300000, guid: 4b1b34d5280256844a5b37f2527dc9ba, type: 3}
+    source: {fileID: 0}
+    volume: 0.35
+    loop: 0
+    playOnAwake: 0
+  - tag: "porte verrouill\xE9e"
+    clip: {fileID: 8300000, guid: 0710dec642f2fc7488708b1fe35ec7e0, type: 3}
+    lastClip: {fileID: 8300000, guid: 0710dec642f2fc7488708b1fe35ec7e0, type: 3}
+    source: {fileID: 0}
+    volume: 0.2
+    loop: 0
+    playOnAwake: 0
+  - tag: loading_lowpitch
+    clip: {fileID: 8300000, guid: e283610d58205e7419e2c9c2ef5749be, type: 3}
+    lastClip: {fileID: 8300000, guid: e283610d58205e7419e2c9c2ef5749be, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 1
+    playOnAwake: 0
+  - tag: Loading_fini
+    clip: {fileID: 8300000, guid: b79c3896b64ad35449c324e766908911, type: 3}
+    lastClip: {fileID: 8300000, guid: b79c3896b64ad35449c324e766908911, type: 3}
+    source: {fileID: 0}
+    volume: 0.2
+    loop: 0
+    playOnAwake: 0
+  - tag: projector
+    clip: {fileID: 8300000, guid: 6a3c8e5c7c2f248409471341e98c8d9e, type: 3}
+    lastClip: {fileID: 8300000, guid: 6a3c8e5c7c2f248409471341e98c8d9e, type: 3}
+    source: {fileID: 0}
+    volume: 0.2
+    loop: 1
+    playOnAwake: 0
+  - tag: Dialogue 1
+    clip: {fileID: 8300000, guid: aa58a1929f3dc0a4aa52bcc908d874fd, type: 3}
+    lastClip: {fileID: 8300000, guid: aa58a1929f3dc0a4aa52bcc908d874fd, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    playOnAwake: 0
+  - tag: Dialogue Cinematique
+    clip: {fileID: 8300000, guid: 94917d143dda2f6448a94605a0cf5f7f, type: 3}
+    lastClip: {fileID: 8300000, guid: 94917d143dda2f6448a94605a0cf5f7f, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    playOnAwake: 0
+  - tag: Dialogue 1.2
+    clip: {fileID: 8300000, guid: 962f116bb324cd440aa20cc589418877, type: 3}
+    lastClip: {fileID: 8300000, guid: 962f116bb324cd440aa20cc589418877, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    playOnAwake: 0
+  - tag: Dialogue 2
+    clip: {fileID: 8300000, guid: 8b5e58d576fa3d84ca99591eee280b3d, type: 3}
+    lastClip: {fileID: 8300000, guid: 8b5e58d576fa3d84ca99591eee280b3d, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    playOnAwake: 0
+  - tag: Dialogue 3
+    clip: {fileID: 8300000, guid: 3d60cef4f7a13b442a9f4e8d519288ab, type: 3}
+    lastClip: {fileID: 8300000, guid: 3d60cef4f7a13b442a9f4e8d519288ab, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    playOnAwake: 0
+  - tag: Dialogue 4
+    clip: {fileID: 8300000, guid: 91de32ebebad24a4e80a850f8bbe0286, type: 3}
+    lastClip: {fileID: 8300000, guid: 91de32ebebad24a4e80a850f8bbe0286, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    playOnAwake: 0
+  - tag: Dialogue 5
+    clip: {fileID: 8300000, guid: 0e424bef1cec8eb4ba60e8245d4e4cf0, type: 3}
+    lastClip: {fileID: 8300000, guid: 0e424bef1cec8eb4ba60e8245d4e4cf0, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    playOnAwake: 0
+  - tag: Cri 2
+    clip: {fileID: 8300000, guid: 3cd714f5d3e909b42911e7764661329a, type: 3}
+    lastClip: {fileID: 8300000, guid: 3cd714f5d3e909b42911e7764661329a, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    playOnAwake: 0

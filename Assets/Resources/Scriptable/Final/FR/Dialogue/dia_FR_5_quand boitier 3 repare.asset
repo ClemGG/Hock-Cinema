@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7569eab0ff300574da6d2e043dcbf0d8, type: 3}
+  m_Name: dia_FR_5_quand boitier 3 repare
+  m_EditorClassIdentifier: 
+  useTalkie: 1
+  dialogueClip: {fileID: 8300000, guid: 3d60cef4f7a13b442a9f4e8d519288ab, type: 3}
+  repliques:
+  - characterName: Jeremy
+    text: "\xC9va, \xC9va pour J\xE9r\xE9my ! Tu en es o\xF9 ? "
+    textOnScreenDuration: 3
+  - characterName: Eva
+    text: "\xC9coute J\xE9r\xE9my, c\u2019est bon pour le <b>rez-de-chauss\xE9e</b>.
+      Mais tu avais raison, il y a bien <b>quelque chose qui r\xF4de</b> dans le
+      b\xE2timent\u2026"
+    textOnScreenDuration: 5.75
+  - characterName: Eva
+    text: "Bon, tu bouges toujours pas, je n'ai plus qu\u2019\xE0 trouver le <b>coffret
+      \xE9lectrique qui alimente l\u2019escalier</b> et je te rejoins."
+    textOnScreenDuration: 4
+  - characterName: Jeremy
+    text: "Si jamais, essaye le bo\xEEtier qui est dans la <b>cabine de projection
+      de la salle 2</b>, je crois que c\u2019est celui qui g\xE8re l\u2019escalier. "
+    textOnScreenDuration: 5
+  - characterName: Eva
+    text: "Ok J\xE9r\xE9my j\u2019y vais, \xE0 tout de suite. "
+    textOnScreenDuration: 2

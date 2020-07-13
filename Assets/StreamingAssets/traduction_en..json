@@ -98,7 +98,7 @@
                     "int": 0,
                     "float": 0.0,
                     "bool": false,
-                    "string": "Thank you for playing our demo of Hock Cinema!",
+                    "string": "Thank you for playing our demo \nof Hock Cinema!",
                     "object": {
                         "instanceID": 0
                     }

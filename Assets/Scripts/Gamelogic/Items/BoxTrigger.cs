@@ -25,9 +25,9 @@ public class BoxTrigger : MonoBehaviour
         if (c.CompareTag(entityTag))
         {
             onTriggerEnterEvent?.Invoke();
+            if (destroyOnEnter) Destroy(gameObject);
         }
 
-        if (destroyOnEnter) Destroy(gameObject);
     }
     private void OnTriggerStay(Collider c)
     {
@@ -41,9 +41,9 @@ public class BoxTrigger : MonoBehaviour
         if (c.CompareTag(entityTag))
         {
             onTriggerExitEvent?.Invoke();
+            if (destroyOnExit) Destroy(gameObject);
         }
 
-        if (destroyOnExit) Destroy(gameObject);
     }
 
 }

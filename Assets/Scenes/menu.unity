@@ -715,6 +715,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneFader
       objectReference: {fileID: 0}
+    - target: {fileID: 8685641077620335635, guid: 504352e9a8f9cd549a3cdc0e3b77e2ad,
+        type: 3}
+      propertyPath: fadeImg
+      value: 
+      objectReference: {fileID: 2127787199}
     - target: {fileID: 8685641077620335647, guid: 504352e9a8f9cd549a3cdc0e3b77e2ad,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -832,6 +837,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 538caf683d6b743459bbe6f26d0a6b81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2127787199 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8685641078967456677, guid: 504352e9a8f9cd549a3cdc0e3b77e2ad,
+    type: 3}
+  m_PrefabInstance: {fileID: 2127787197}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &161186013153110804
@@ -971,6 +988,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2127787198}
+    - target: {fileID: 161186014297887356, guid: 17d263239ddaed3499dbcb513eb14d4d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17d263239ddaed3499dbcb513eb14d4d, type: 3}
 --- !u!1001 &398138583185945208

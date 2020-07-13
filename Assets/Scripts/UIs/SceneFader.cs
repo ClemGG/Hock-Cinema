@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class SceneFader : MonoBehaviour
 {
-    Image fadeImg;
+    [SerializeField] Image fadeImg;
 
 
     public static SceneFader instance;
@@ -25,7 +25,9 @@ public class SceneFader : MonoBehaviour
 
     void Start()
     {
-        fadeImg = transform.GetChild(0).GetComponent<Image>();
+        if(!fadeImg)
+            fadeImg = transform.GetChild(0).GetComponent<Image>();
+
         if (fadeImg)
             fadeImg.gameObject.SetActive(true);
 

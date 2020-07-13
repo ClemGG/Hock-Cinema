@@ -16,7 +16,7 @@ public class NavMeshPathFollower : NavMeshIA
     [SerializeField] protected PathCreator[] avaliablePaths;
     float distanceTravelled;
     Vector3 startPos;
-
+    int currentPathIndex = -1;      //Pour empêcher l'IA de reprendre le même chemin
 
     [Space(10)]
     [Header("IA :")]
@@ -157,7 +157,14 @@ public class NavMeshPathFollower : NavMeshIA
     //les unes des autres
     public void ChangePathRandomly()
     {
-        pathToFollow = avaliablePaths[Random.Range(0, avaliablePaths.Length)];
+
+        int alea = 0;
+        while(alea == currentPathIndex)
+        {
+            alea = Random.Range(0, avaliablePaths.Length);
+        }
+        pathToFollow = avaliablePaths[alea];
+        currentPathIndex = alea;
     }
 
 

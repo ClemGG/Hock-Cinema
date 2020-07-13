@@ -7,9 +7,15 @@ using UnityStandardAssets.Characters.FirstPerson;
 
 public class PlayerController : MonoBehaviour
 {
+    #region Variables
+
     [Space(10)]
     [Header("Scripts & Components :")]
     [Space(10)]
+
+    public bool debug = false;
+
+    [Space(20)]
 
     public static FirstPersonController fpc;
     PlayerInput input;
@@ -49,7 +55,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] AudioClip audTalkieOn;
     [SerializeField] AudioClip[] footstepsMoquette;
 
-
+    #endregion
 
 
 
@@ -61,6 +67,14 @@ public class PlayerController : MonoBehaviour
         fpc = GetComponent<FirstPersonController>();
         input = GetComponent<PlayerInput>();
         mainCam = Camera.main;
+
+        if (debug)
+        {
+            SetHasTablet();
+            SetHasTalkie();
+            SetActionAllowed(true);
+        }
+
     }
 
     private void Update()

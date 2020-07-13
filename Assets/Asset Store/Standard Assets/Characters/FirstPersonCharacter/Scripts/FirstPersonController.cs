@@ -10,6 +10,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
     [RequireComponent(typeof (AudioSource))]
     public class FirstPersonController : MonoBehaviour
     {
+        [SerializeField] private bool isInCutscene;
+
+        [Space(20)]
+
+
         [SerializeField] private bool m_IsWalking;
         public float m_WalkSpeed;
         public float m_RunSpeed;
@@ -56,6 +61,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+
+            m_curFootstepSounds = m_FootstepSounds;
         }
 
 
@@ -218,16 +225,17 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void GetInput(out float speed)
         {
+
             // Read input
-            float horizontal = CrossPlatformInputManager.GetAxis("Horizontal");
-            float vertical = CrossPlatformInputManager.GetAxis("Vertical");
+            float horizontal = !isInCutscene ? CrossPlatformInputManager.GetAxis("Horizontal") : 0f;
+            float vertical = !isInCutscene ? CrossPlatformInputManager.GetAxis("Vertical") : CutsceneEvents.instance.playerCutsceneSpd;
 
             bool waswalking = m_IsWalking;
 
 #if !MOBILE_INPUT
             // On standalone builds, walk/run speed is modified by a key press.
             // keep track of whether or not the character is walking or running
-            m_IsWalking = !Input.GetButton("Run");
+            m_IsWalking = !isInCutscene ? !Input.GetButton("Run") : true;
 #endif
             // set the desired speed to be walking or running
             speed = m_IsWalking ? m_WalkSpeed : m_RunSpeed;

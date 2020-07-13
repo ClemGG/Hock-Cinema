@@ -8,6 +8,7 @@ public class DialogueManager : MonoBehaviour
     #region Variables
 
     [SerializeField] float pauseBetweenRepliquesDelay = .3f;
+    [SerializeField] GameObject enemiesParent;
 
 
     Dialogue currentDialogue;
@@ -58,7 +59,7 @@ public class DialogueManager : MonoBehaviour
         _startWalkSpeed = PlayerController.fpc.m_WalkSpeed;
         _startRunSpeed = PlayerController.fpc.m_RunSpeed;
 
-        enemies = Resources.FindObjectsOfTypeAll<NavMeshPlayerDetector>();
+        enemies = enemiesParent.GetComponentsInChildren<NavMeshPlayerDetector>();
 
     }
 
@@ -129,7 +130,7 @@ public class DialogueManager : MonoBehaviour
     private void StartDialogue()
     {
         //On désactive les ennemis pour que le joueur soit tranquille pendant les cutscenes
-        StopEnemies(true);
+        //StopEnemies(true);
 
 
         //On coupe le dialogue précédent et on joue l'audio du dialogue en cours
@@ -165,7 +166,7 @@ public class DialogueManager : MonoBehaviour
         if (curDialogueIndex == currentDialogue.repliques.Length || currentDialogue.repliques.Length == 0)
         {
             //Le dialogue est terminé, on réactive les ennemis
-            StopEnemies(false);
+            //StopEnemies(false);
 
 
             isPlaying = false;

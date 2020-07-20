@@ -22,11 +22,11 @@ Optimization was a key aspect for the creation of this environment: We use 4 rea
 
 The game was produced under Unity 2019.3 by a team of 5 people:
 
-Nina Bourdonnec (Game Design, Level Design, Scenario)
-Anna Messerschmitt (Modeling, Rig / Skin, Animation)
-Morgane Melilli (Concept Art, Screenplay, Sound Design)
-Robin Rebière (Artistic direction, Modeling, Lighting, Integration)
-Clément Guichard (Programming, Integration)
+- Nina Bourdonnec (Game Design, Level Design, Scenario)
+- Anna Messerschmitt (Modeling, Rig / Skin, Animation)
+- Morgane Melilli (Concept Art, Screenplay, Sound Design)
+- Robin Rebière (Artistic direction, Modeling, Lighting, Integration)
+- Clément Guichard (Programming, Integration)
 
 
 
@@ -56,8 +56,8 @@ Hock Cinema est un projet étudiant réalisé au cours de notre dernière année
 
 Le jeu a été réalisé sous Unity 2019.3 par une équipe de 5 personnes :
 
-Nina Bourdonnec (Game Design, Level Design, Scenario)
-Anna Messerschmitt (Modelisation, Rig/Skin, Animation)
-Morgane Melilli (Concept Art, Scénario, Sound Design)
-Robin Rebière (Direction artistique, Modélisation, Eclairage, Intégration)
-Clément Guichard (Programmation, Intégration)
+- Nina Bourdonnec (Game Design, Level Design, Scenario)
+- Anna Messerschmitt (Modelisation, Rig/Skin, Animation)
+- Morgane Melilli (Concept Art, Scénario, Sound Design)
+- Robin Rebière (Direction artistique, Modélisation, Eclairage, Intégration)
+- Clément Guichard (Programmation, Intégration)

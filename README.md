@@ -3,8 +3,8 @@
 
 
 
-Play the game here : https://eartsup-toulouse.itch.io/hockcinema
-Watch our asset showcase here : https://www.artstation.com/artwork/5XXDvw
+- Play the game here : https://eartsup-toulouse.itch.io/hockcinema
+- Watch our asset showcase here : https://www.artstation.com/artwork/5XXDvw
 
 
 James HOCK special evening!
@@ -31,11 +31,13 @@ The game was produced under Unity 2019.3 by a team of 5 people:
 
 
 
+
+
 [French version]
 
 
-Jouez au jeu ici : https://eartsup-toulouse.itch.io/hockcinema
-Regardez des images du making of ici : https://www.artstation.com/artwork/5XXDvw
+- Jouez au jeu ici : https://eartsup-toulouse.itch.io/hockcinema
+- Regardez des images du making of ici : https://www.artstation.com/artwork/5XXDvw
 
 
 
@@ -48,7 +50,6 @@ Arriverez vous à tenir le coup ?
 Evoluez dans un cinéma angoissant datant des années 30. Votre seule arme sera les cameras de surveillance. 
 
 Attention, pour survivre, ne comptez pas seulement sur vos sens...
-
 
 
 

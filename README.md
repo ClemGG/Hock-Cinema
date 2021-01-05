@@ -6,6 +6,8 @@
 - Play the game here : https://eartsup-toulouse.itch.io/hockcinema
 - Watch our asset showcase here : https://www.artstation.com/artwork/5XXDvw
 
+![alt text](https://img.itch.zone/aW1nLzM0NDUxOTYuanBn/original/J6r7Fo.jpg)
+
 
 James HOCK special evening!
 

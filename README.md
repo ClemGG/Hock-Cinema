@@ -31,7 +31,8 @@ The game was produced under Unity 2019.3 by a team of 5 people:
 - Clément Guichard (Programming, Integration)
 
 
-![alt text](https://youtu.be/ClpMEnLKTnU)![alt text](https://img.itch.zone/aW1hZ2UvNjQzNjI5LzM2ODkyODUucG5n/original/AxU8Ie.png)
+![alt text](https://img.itch.zone/aW1hZ2UvNjQzNjI5LzM2ODkyODIucG5n/original/Y8ivFS.png)
+![alt text](https://img.itch.zone/aW1hZ2UvNjQzNjI5LzM2ODkyODUucG5n/original/AxU8Ie.png)
 
 
 
@@ -41,7 +42,7 @@ The game was produced under Unity 2019.3 by a team of 5 people:
 - Jouez au jeu ici : https://eartsup-toulouse.itch.io/hockcinema
 - Regardez des images du making of ici : https://www.artstation.com/artwork/5XXDvw
 
-
+---
 
 Soirée spéciale James HOCK!
 
@@ -53,7 +54,7 @@ Evoluez dans un cinéma angoissant datant des années 30. Votre seule arme sera 
 
 Attention, pour survivre, ne comptez pas seulement sur vos sens...
 
-
+---
 
 Hock Cinema est un projet étudiant réalisé au cours de notre dernière année de cursus en game design, sous les thèmes suivants : "Survival horror" et "Noir et Blanc". 
 

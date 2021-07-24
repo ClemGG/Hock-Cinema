@@ -24,11 +24,11 @@ Optimization was a key aspect for the creation of this environment: We use 4 rea
 
 The game was produced under Unity 2019.3 by a team of 5 people:
 
+- Clément Guichard (Programming, Integration)
 - Nina Bourdonnec (Game Design, Level Design, Scenario)
 - Anna Messerschmitt (Modeling, Rig / Skin, Animation)
 - Morgane Melilli (Concept Art, Screenplay, Sound Design)
 - Robin Rebière (Artistic direction, Modeling, Lighting, Integration)
-- Clément Guichard (Programming, Integration)
 
 
 ![alt text](https://img.itch.zone/aW1hZ2UvNjQzNjI5LzM2ODkyODIucG5n/original/Y8ivFS.png)
@@ -41,6 +41,9 @@ The game was produced under Unity 2019.3 by a team of 5 people:
 
 - Jouez au jeu ici : https://eartsup-toulouse.itch.io/hockcinema
 - Regardez des images du making of ici : https://www.artstation.com/artwork/5XXDvw
+
+![alt text](https://img.itch.zone/aW1nLzM0NDUxOTYuanBn/original/J6r7Fo.jpg)
+
 
 ---
 
@@ -60,8 +63,15 @@ Hock Cinema est un projet étudiant réalisé au cours de notre dernière année
 
 Le jeu a été réalisé sous Unity 2019.3 par une équipe de 5 personnes :
 
+- Clément Guichard (Programmation, Intégration)
 - Nina Bourdonnec (Game Design, Level Design, Scenario)
 - Anna Messerschmitt (Modelisation, Rig/Skin, Animation)
 - Morgane Melilli (Concept Art, Scénario, Sound Design)
 - Robin Rebière (Direction artistique, Modélisation, Eclairage, Intégration)
-- Clément Guichard (Programmation, Intégration)
+
+
+
+![alt text](https://img.itch.zone/aW1hZ2UvNjQzNjI5LzM2ODkyODIucG5n/original/Y8ivFS.png)
+![alt text](https://img.itch.zone/aW1hZ2UvNjQzNjI5LzM2ODkyODUucG5n/original/AxU8Ie.png)
+
+
